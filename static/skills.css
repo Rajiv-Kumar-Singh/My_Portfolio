@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Open+Sans+Condensed:wght@300&display=swap');
+
+
+#skill{
+    color: #00ad9a;
+    font-family: 'Fredoka One', cursive;
+    font-size: 46px;
+    position: absolute;
+    top: 181px;
+    left: 68px;
+}
+#tag{
+    position: absolute;
+    top: 94px;
+    left: 51%;
+  } 
+
+#pskill{
+    position: absolute;
+    top: 105px;
+    left: 5px;
+    color: white;
+    font-size: 14px;
+}

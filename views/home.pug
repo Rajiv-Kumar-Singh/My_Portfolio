@@ -1,0 +1,37 @@
+extends base.pug
+
+block scripts
+    script(src='../static/tut.js')
+  
+block style
+    style
+        include ../static/style.css
+
+block content
+    section#container
+        #content
+            h2
+                span#hi  Hi,
+                br
+                span#iam  I&apos;am 
+                span#pool Rajiv
+                br
+                span#webdev Web Developer
+            button#btn(type='button') Contact
+        img#svg(src='../static/images/im.svg' alt='')
+        #sidebar    
+            .social_links
+                a(href='https://www.facebook.com' target='_blank')
+                    span#fb.fa.fa-linkedin(aria-hidden='true')
+                a(href='https://www.instagram.com' target='_blank')
+                    span#in.fa.fa-facebook-official(aria-hidden='true')
+                a(href='https://www.twitter.com' target='_blank')
+                    span#tw.fa.fa-twitter(aria-hidden='true')
+        //- #cl 
+        //- #ul            
+
+        //- footer#footer
+        //- | Copyright © 2021 HarryDanceAcademy.com | All rigths reserved
+    
+    script
+        include ../static/tut.js

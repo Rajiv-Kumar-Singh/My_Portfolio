@@ -1,0 +1,77 @@
+extends base.pug
+
+block scripts
+    script(src='../static/tut.js')
+  
+block style
+    style
+        include ../static/style.css
+        include ../static/skills.css
+        
+
+block content
+    section#container
+        #cont4 
+            h1#skill Skills &amp; Experience
+                #psk 
+                    span#pskill HTML,PUG,CSS,JAVASCRIPT,building small and medium web apps with Nodejs,custom pulgins,features,animations and coding interactive layouts.
+
+            #tag
+            script(src='https://code.jquery.com/jquery-3.4.1.js')
+            script(src='../static/tut.js')
+            script.
+                $(document).ready(function(){
+                var entries = [
+                { label : 'HTML'},
+                { label : 'CSS'},
+                { label : 'JAVASCRIPT'},
+                { label : 'NODEJS'},
+                { label : 'MONGODB'},
+                { label : 'PUG'},
+                { label : 'EXPRESS'},
+                { label : 'MONGOOSE'},
+                { label : 'POSTMAN'},
+                { label : 'FS'},
+                { label : 'NODE '},
+                { label : 'MONGODB'},
+                { label : 'EXPRESS'},
+                { label : 'PUG'},
+                { label : 'C++'},
+                { label : 'C#'},
+                { label : 'MONGOOSE'},
+                { label : 'SLUGIFY'},
+                { label : 'NODEMON'},
+                { label : 'RUBY'},
+                { label : 'SWIFT'},
+                { label : 'PASCAL'},
+                { label : 'COBO'},
+                { label : 'FUSION'},
+                { label : 'FLEX'},
+                { label : 'COLD FUSION'},
+                { label : 'REACT'},
+                { label : 'CSS'},
+                { label : 'REACT'}
+                ];
+                var settings = {
+                entries : entries,
+                width:640,
+                height:480,
+                radius:'66%',
+                radiusMin:75,
+                //  bgDraw:true,
+                //  bgcolor:'transparent',
+                opacityOver:1.00,
+                opacityOut:0.05,
+                opacitySpeed:2,
+                fov:900,
+                speed:1.5,
+                fontFamily:'Courier,Arial,sans-serif',
+                fontSize:'30',
+                fontColor:'#00ad9a',
+                fontWeight:'bold',
+                fontStyle:'normal',
+                fontSretch:'normal',
+                fontToUppercase:true
+                };
+                $('#tag').svg3DTagCloud(settings);
+                });

@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Open+Sans+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Montserrat:wght@100;200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+#abcont{
+    position: absolute;
+    /* border: 2px solid yellow; */
+    color: #C0C0C0;
+    background: transparent;
+}
+#abt{
+    position: absolute;
+    left: 24px;
+    top: 24px;
+    width: 45%;
+    /* border: 2px solid red; */
+    margin: 0px;
+    padding: 18px;
+    border: 2px solid black;
+    box-shadow: 5px 5px 35px rgb(0 0 0 / 80%);
+    border-radius: 25px;
+    
+}
+#abtme{
+    color:#f6f8f9;
+    font-family: 'Fredoka One', cursive;
+    font-size: 56px;
+}
+
+#p1{
+    font-size: 25px;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Cinzel', serif;
+    
+}
+
+#p2{
+    font-family: 'Caveat', cursive;
+}
+
+#p3{
+    font-family: 'Caveat', cursive;
+}
+
+#svg2{
+    position: relative;
+    top: 101px;
+    left: 58%;
+    width: 332px;
+    height: 262px;
+    transform: rotateY(180deg);
+    /* background: transparent; */
+    animation: animates6 5s linear infinite;
+}
+
+@keyframes animates6{
+    0%{
+        filter: hue-rotate(0deg);
+    }
+    100%{
+        filter: hue-rotate(360deg);
+    }
+} 
+
+
+#sociali {
+    /* border: 2px solid green; */
+    position: relative;
+    top: 556px;
+    /* z-index: 12; */
+    left: 81%;
+}
+
+#icn a{
+    padding: 18px;
+    font-size: 26px;
+    
+
+}
+
+#fb1{
+    color: #f18957;
+    filter: invert(100%);
+}
+
+#in1{
+    color: #c4a667;
+    filter: invert(100%);
+}
+
+#tw1{
+    color: #e25e0d;
+    filter: invert(100%);
+}
+
