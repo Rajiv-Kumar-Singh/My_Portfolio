@@ -1,8 +1,80 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
-#contwork{
+
+#content4{
+    position: relative;
+    /* background-image:url('../static/images/bg.JPG') ; */
+    background-color: rgb(9, 8, 15);
+    width: 99vw;
+    height: 100%;
+    z-index: 6;
+}
+
+#daba1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* backdrop-filter: blur(8px);
+    box-shadow: 25px 2px 50px rgb(0 0 0); */
+    
+}
+
+#workhead{
+    width: 62px;
+    height:2px;
+    border-width:0;
+    color:rgb(71, 255, 246);
+    background-color:rgb(71, 255, 255);
+}
+
+
+#svg{
+    position: absolute;
+    top: 191px;
+    left: 9%;
+    width: 374px;
+    height: 209px;
+    animation: animatessvg 2s alternate infinite;
+}
+
+@keyframes animatessvg{
+    0%{
+        transform: translateY(0);
+        filter: hue-rotate(0deg);
+    }
+    100%{
+        transform: translateY(-10px);
+        filter: hue-rotate(360deg);
+    }
+}
+
+#dabain{
+    color: white;
+    position: absolute;
+    top: 213px;
+    left: 52%;
+    width: 40%;
+    height: 234px;
+    font-family: 'Fredoka One', cursive;
+}
+
+#projhead{
+    color: #6C63FF;
+    font-family: 'Righteous', cursive;
+    font-size: 45px;
+}
+
+#internhead{
+    color: #6C63FF;
+    font-family: 'Righteous', cursive;
+    font-size: 45px;
+}
+
+
+
+/* #contwork{
     display: flex;
     color: white;
-    /* border: 2px solid green; */
+  
 }
 
 #boxw1{
@@ -14,7 +86,7 @@
     height: 83vh;
     top: 10px;
     left: 5px;
-    /* border: 2px solid rebeccapurple; */
+    
     width: 122px;
     font-size: 21px;
     color: white;
@@ -61,4 +133,4 @@ hr{
     left: 5px;
     font-size: 16px;
     font-weight: bolder;
-}
+} */

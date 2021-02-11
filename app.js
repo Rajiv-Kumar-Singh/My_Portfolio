@@ -24,22 +24,22 @@ app.get('/',(req,res)=>{
     res.status(200).render('home.pug',params);
 })
 
-app.get('/contact', (req, res)=>{
-    const params ={ }
-    res.status(200).render('./contact.pug',params);
-})
-app.get('/about', (req, res)=>{
-    const params ={ }
-    res.status(200).render('./about.pug',params);
-})
-app.get('/skills', (req, res)=>{
-    const params ={ }
-    res.status(200).render('./skills.pug',params);
-})
-app.get('/work', (req, res)=>{
-    const params ={ }
-    res.status(200).render('./work.pug',params);
-})
+// app.get('/contact', (req, res)=>{
+//     const params ={ }
+//     res.status(200).render('./contact.pug',params);
+// })
+// app.get('/about', (req, res)=>{
+//     const params ={ }
+//     res.status(200).render('./about.pug',params);
+// })
+// app.get('/skills', (req, res)=>{
+//     const params ={ }
+//     res.status(200).render('./skills.pug',params);
+// })
+// app.get('/work', (req, res)=>{
+//     const params ={ }
+//     res.status(200).render('./work.pug',params);
+// })
 
 
 // app.post('/contact', (req, res)=>{

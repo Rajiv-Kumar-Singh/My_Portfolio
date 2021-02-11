@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+#section{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 52px;
+}
+
+.container0{
+    /* border: 2px solid red; */
+    /* position: absolute; */
+    margin: 0px;
+    width: 99.3vw;
+    height: 100vh;
+}
+
+#content1{
+    /* position: absolute; */
+    color: white;
+    
+}
+
+#hello{
+    position: absolute;
+    top: 220px;
+    left: 78px;
+    font-size: 39px;
+    font-family: 'Patua One', cursive;
+
+}
+
+#im{
+    position: absolute;
+    top: 264px;
+    left: 78px;
+    font-size: 39px;
+    font-family: 'Patua One', cursive;
+}
+
+#naam{
+    color: tomato;
+}
+
+#hl{
+    width: 43%;
+    size: "2";
+    position: absolute;
+    top: 319px;
+    left: 78px;
+    color: tomato;
+}
+
+
+#webdev{
+    position: absolute;
+    top: 331px;
+    font-size: 21px;
+    left: 78px;
+    color: rgb(27, 143, 238);
+    font-family: 'Righteous', cursive;
+}
+
+#pp{
+    position: absolute;
+    top: 421px;
+    font-size: 16px;
+    left: 78px;
+    width: 41%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+#sidebar{
+    position: absolute;
+    width: 60px;
+    height: 17%;
+    right: 13px;
+    top: 0;  
+}
+
+.social_links span{
+    width: 30px;
+    margin: 8px auto;
+    cursor: pointer;
+    font-size: 34px;
+    filter: invert(50%);
+}
+.social_links{
+    width: 50px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+
+
+#fb:hover{
+    color: #f18957 ;
+    filter: invert(100%);
+}
+#in:hover{
+   color: #c4a667;
+   filter: invert(100%);
+}
+#tw:hover{
+    color: #e25e0d;
+    filter: invert(100%);
+}

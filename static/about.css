@@ -1,10 +1,144 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Open+Sans+Condensed:wght@300&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Open+Sans+Condensed:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Montserrat:wght@100;200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
-#abcont{
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+.over1{
+    width: 62px;
+    height:2px;
+    border-width:0;
+    color:tomato;
+    background-color:tomato;
+    
+}
+
+
+#content2{
+    color: white;
+    background: transparent;
+    /* background-image: linear-gradient(#355c7d,#6c5b7b,#c06c84); */
+    /* z-index: 5; */
+    background: none;
+
+    /* border: 2px solid gray; */
+    width: 100%;
+    height: 100%;
+    background-color:rgb(16, 15, 27);
+
+}
+
+/* #content2::after{
+    color: rebeccapurple;
+    background: transparent;
+    background-image: linear-gradient(#355c7d,#6c5b7b,#c06c84);
+} */
+/* #content2{
+    border: 2px solid gray;
+    width: 100%;
+    height: 100%;
+    background-color:rgb(16, 15, 27);
+    
+    
+} */
+
+#paras{
+    position: relative;
+    left: 48%;
+    top: 98px;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+#dis{
+    font-family: 'Righteous', cursive;
+    font-size: 20px;
+
+}
+#abthr{
+    width: 62px;
+    height:2px;
+    border-width:0;
+    color:tomato;
+    background-color:tomato;
+}
+
+#abthead1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 42px;
+}
+
+#boxx{
+    border: 2px solid tomato;
+    position: relative;
+    top: 30px;
+    left: 0px;
+    width: 95%;
+    height: 201px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.boxe{
+    position: relative;
+    top: 16px;
+    left: 18px;
+}
+
+#boxx1{
     position: absolute;
-    /* border: 2px solid yellow; */
+    top: 37px;
+    left: 55%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#enjoy{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+#games{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+#btn1{
+    position: relative;
+    left: 711.5px;
+    top: -154px;
+    background-color: tomato;
+    border: none;
+    color: white;
+    padding: 11px 31px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#btn1:hover{
+    background: transparent;
+    border: 2px solid tomato;
+}
+
+#mypic{
+    position: relative;
+    top: -246px;
+    left: 3%;
+    width: 321px;
+    height: 345px;
+}
+/* #abcont{
+    position: absolute;
+   
     color: #C0C0C0;
     background: transparent;
 }
@@ -13,7 +147,7 @@
     left: 24px;
     top: 24px;
     width: 45%;
-    /* border: 2px solid red; */
+  
     margin: 0px;
     padding: 18px;
     border: 2px solid black;
@@ -29,7 +163,7 @@
 
 #p1{
     font-size: 25px;
-    /* font-family: 'Montserrat', sans-serif; */
+    
     font-family: 'Cinzel', serif;
     
 }
@@ -49,7 +183,7 @@
     width: 332px;
     height: 262px;
     transform: rotateY(180deg);
-    /* background: transparent; */
+
     animation: animates6 5s linear infinite;
 }
 
@@ -64,10 +198,10 @@
 
 
 #sociali {
-    /* border: 2px solid green; */
+  
     position: relative;
     top: 556px;
-    /* z-index: 12; */
+    
     left: 81%;
 }
 
@@ -91,5 +225,5 @@
 #tw1{
     color: #e25e0d;
     filter: invert(100%);
-}
+} */
 

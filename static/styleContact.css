@@ -1,5 +1,272 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
-*{
+
+
+
+#content5{
+    position: relative;
+    /* background-image:url('../static/images/bg.JPG') ; */
+    background-color: rgb(5, 5, 5);
+    width: 99vw;
+    height: 100%;
+    z-index: 6;
+}
+
+#daba2{
+    position: absolute;
+    width: 100vw;
+    height: 100%;
+}
+
+
+#contacthead{
+    width: 62px;
+    height:2px;
+    border-width:0;
+    color:tomato;
+    background-color:tomato;
+}
+
+
+/* *, *:before, *:after {
+    box-sizing: border-box;
+    smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  } */
+  
+  body {
+    /* background: linear-gradient(to right, #ea1d6f 0%, #eb466b 100%); */
+    /* font-size: 12px; */
+  }
+  
+  /* body,*/
+   button, input { 
+    
+    font-weight: 700;
+    letter-spacing: 1.4px;
+  }
+  
+  .background {
+    display: flex;
+    min-height: 100vh;
+  }
+  
+  .container {
+    flex: 0 1 700px;
+    margin: auto;
+    padding: 10px;
+  }
+  
+  .screen {
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    background: #3e3e3e;
+    height: 560px;
+    top: 105px;
+    left: 18%;
+    width: 902px;
+    border-radius: 15px;
+  }
+  
+  .screen:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 20px;
+    right: 20px;
+    bottom: 0;
+    border-radius: 15px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .4);
+    z-index: -1;
+  }
+  
+  .screen-header {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background: #4d4d4f;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  
+  .screen-header-left {
+    margin-right: auto;
+  }
+  
+  .screen-header-button {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin-right: 3px;
+    border-radius: 8px;
+    background: white;
+  }
+  
+  .screen-header-button.close {
+    background: tomato;
+  }
+  
+  .screen-header-button.maximize {
+    background: #00ad9a;
+  }
+  
+  .screen-header-button.minimize {
+    background: #74c54f;
+  }
+  
+  .screen-header-right {
+    display: flex;
+  }
+  
+  .screen-header-ellipsis {
+    width: 3px;
+    height: 3px;
+    margin-left: 2px;
+    border-radius: 8px;
+    background: #999;
+  }
+  
+  .screen-body {
+    display: flex;
+  }
+  
+  .screen-body-item {
+    flex: 1;
+    padding: 50px;
+  }
+  
+  .screen-body-item.left {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .app-title {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    color: tomato;
+    font-size: 26px;
+  }
+  
+  .app-title:after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 25px;
+    height: 4px;
+    background: tomato;
+  }
+  
+  .app-contact {
+    margin-top: auto;
+    font-size: 8px;
+    color: #888;
+  }
+  
+  .app-form-group {
+    margin-bottom: 15px;
+  }
+  
+  .app-form-group.message {
+    margin-top: 40px;
+  }
+  
+  .app-form-group.buttons {
+    margin-bottom: 0;
+    text-align: right;
+  }
+  
+  .app-form-control {
+    width: 100%;
+    padding: 10px 0;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #666;
+    color: #ddd;
+    font-size: 14px;
+    text-transform: uppercase;
+    outline: none;
+    transition: border-color .2s;
+  }
+  
+  .app-form-control::placeholder {
+    color: #666;
+  }
+  
+  .app-form-control:focus {
+    border-bottom-color: #ddd;
+  }
+  
+  .app-form-button {
+    position: relative;
+    top: 73px;
+    left: 51%;
+    margin: 20px;
+    background: none;
+    border: none;
+    color: tomato;
+    font-size: 14px;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .app-form-button:hover {
+    color: tomato;
+  }
+  
+
+  
+  
+  
+  @media screen and (max-width: 520px) {
+    .screen-body {
+      flex-direction: column;
+    }
+  
+    .screen-body-item.left {
+      margin-bottom: 30px;
+    }
+  
+    .app-title {
+      flex-direction: row;
+    }
+  
+    .app-title span {
+      margin-right: 12px;
+    }
+  
+    .app-title:after {
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .screen-body {
+      padding: 40px;
+    }
+  
+    .screen-body-item {
+      padding: 0;
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,7 +274,7 @@
 
 
 #container3{
-    /* position: absolute;
+     position: absolute;
     z-index: 1;
     top: 10%;
     left: 6.5%;
@@ -21,39 +288,33 @@
     border-left: 1px solid rgba(255,255,255,0.5);
    
     display: flex;
-    background: transparent; */
+    background: transparent; 
     position: absolute;
     z-index: 1;
     top: 61px;
     left: 87px;
     width: 87vw;
     display: flex;
-    /* background-color: wheat; */
+    background-color: wheat; 
     box-shadow: 0px 0px 30px rgba(0,0,0,0.1);
     border-radius: 16px;
     background: rgba(255,255,255,0);
     overflow: hidden;
     height: 87vh;
-    /* background-color:rgba(255,255,255,0.4); */
-    /* border: 5px solid rgba(255,255,255,0.4); */
+    
     border-top: 1px solid rgba(255,255,255, 0.5);
     border-left: 1px solid rgba(255,255,255,0.5);
-    /* border-right: 1px solid rgb(255,255,255,0.2); */
-    /* border-bottom: 1px solid rgba(255,255,255,0.2); */
+  
     backdrop-filter: blur(5px);
-    /* -webkit-backdrop-filter: blur(5px); */
-    /* display: block; */
-    /* display: none; */
     
 }
 
 
 .box2{
-    /* border: 2px solid red; */
-    /* width: 0%; */
+    
     margin: 10px;
     box-shadow: 0px 0px 30px rgba(0,0,0,0.1);
-    /* background: rgba(255,255,255,0); */
+     background: rgba(255,255,255,0); 
     backdrop-filter: blur(8px);
     
 }
@@ -72,7 +333,7 @@
     top: 12.5%;
     height: 80%;
     position: absolute;
-    /* border: 2px solid gray; */
+    
 }
 #head{
     text-align: left;
@@ -124,8 +385,7 @@
     border-right: 2px solid #262626;
     box-shadow: inset 0.1px 0.1px 0 #C0C0C0, 0 2px 3px rgb(0 0 0 / 40%);
     border-radius: 6px;
-    /* white-space: nowrap; */
-    /* padding: 1rem 1.5rem; */
+  
     line-height: 0.2;
     text-decoration: none;
     cursor: pointer;
@@ -198,4 +458,4 @@ h7{
     filter: invert(100%);
     font-size: 26px;
 }
-
+ */
