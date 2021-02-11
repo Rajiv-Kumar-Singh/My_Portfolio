@@ -9,8 +9,14 @@
 
 
  body{
+    /* overflow-y: hidden; */
     background-color: black;
+    
 } 
+
+body::-webkit-scrollbar{
+    display: none;
+}
 /* 
 section{
     position: relative;
@@ -122,10 +128,10 @@ section .row:nth-child(even) div{
     #logo{
         position: absolute;
         color: #00ad9a;
-        text-shadow:0 0 25px #00ad9a;
+        text-shadow: 0 0 25px #00ad9a;
         left: 2.2%;
-        top: 4%;
-        font-size: 39px;
+        top: -5%;
+        font-size: 3rem;
         font-family: 'Satisfy', cursive;
         
     }
@@ -134,12 +140,12 @@ section .row:nth-child(even) div{
         top: 0px;
         left: 0px;
         z-index: 2;
-        width: 98.5vw;
+        width: 100vw;
         box-shadow: 0px 0px 30px rgb(0 0 0 / 20%);
         /* border-radius: 16px; */
         background: rgba(255,255,255,0);
         overflow: hidden;
-        height: 54px;
+        height: 3.5rem;
         /* border-top: 1px solid rgba(255,255,255, 0.5); */
         /* border-left: 1px solid rgba(255,255,255,0.5); */
         backdrop-filter: blur(12px);
@@ -188,7 +194,7 @@ section .row:nth-child(even) div{
     
     ul li a{
         
-        font-size: 1.45rem;
+        font-size: 1.5rem;
         padding: 12px ;
         text-decoration: none;
         color:#C0C0C0;
