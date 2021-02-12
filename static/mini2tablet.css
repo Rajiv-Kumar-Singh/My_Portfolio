@@ -11,11 +11,9 @@
     flex-direction: column;
     
 }
+
 #my1pic{
     display: revert!important;
- }
-#my1pic{
-    
     position: relative!important;
     top: 12px;
     left: 227px;
