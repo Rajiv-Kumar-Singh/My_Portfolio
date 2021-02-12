@@ -96,7 +96,9 @@
 
 
 #my1pic{
-    display: none;
+    position: relative;
+    width: 0px;
+    height: 0px;
 }
 
 #btn1{
