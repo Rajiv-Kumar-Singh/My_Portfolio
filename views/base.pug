@@ -1,9 +1,16 @@
 doctype html
 html
   head
-    title Portfolio
-    link(rel='stylesheet' href='https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css')
-    //- link(rel='stylesheet' href='style.css')
+    block head 
+        title Portfolio
+        link(rel='stylesheet' media='screen and (max-device-width: 1104px)' href='../static/vanis.css')
+        link(rel='stylesheet' media='screen and (max-device-width: 680px)' href='../static/tablet.css')
+        link(rel='stylesheet' media='screen and (max-device-width: 572px)' href='../static/minitablet.css')
+        link(rel='stylesheet' media='screen and (max-device-width: 480px)' href='../static/mini2tablet.css')
+        link(rel='stylesheet' media='screen and (max-device-width: 425px)' href='../static/phone.css')
+        link(rel='stylesheet' media='screen and (max-device-width: 395px)' href='../static/miniphone.css')
+        //- link(rel='stylesheet' media='screen and (max-device-width: 563px)' href='../static/vanis.css')
+        link(rel='stylesheet' href='https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css')
     block scripts
     block style
   body

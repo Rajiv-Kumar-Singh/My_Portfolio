@@ -151,7 +151,7 @@ section .row:nth-child(even) div{
         backdrop-filter: blur(12px);
 
         /* box-shadow: 20px 20px 50px #00d2c6; */
-        animation: anihead 8s linear infinite;
+        animation: anihead 3.5s linear infinite;
         }
 
          @keyframes anihead{
