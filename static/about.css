@@ -24,6 +24,7 @@
 
 
 #paras{
+    display: inline-block;
     position: relative;
     left: 48%;
     top: 98px;
@@ -34,11 +35,13 @@
 }
 
 #dis{
+    display: inline-block;
     font-family: 'Righteous', cursive;
     font-size: 20px;
 
 }
 #abthr{
+    display: inline-block;
     width: 62px;
     height:2px;
     border-width:0;
@@ -47,6 +50,7 @@
 }
 
 #abthead1{
+    display: inline-block;
     font-family: 'Roboto', sans-serif;
     font-size: 42px;
 }
@@ -90,6 +94,10 @@
 
 }
 
+
+#my1pic{
+    display: none;
+}
 
 #btn1{
     position:absolute;

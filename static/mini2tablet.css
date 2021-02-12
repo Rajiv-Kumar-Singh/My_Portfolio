@@ -1,3 +1,47 @@
-#paras {
-    top: 273px!important;
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+#paras{
+    position: relative;
+    left: 12px!important;
+    top: 98px!important;
+    width: 100vw!important;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#my1pic{
+    display: revert!important;
+    position: relative;
+    top: 12px;
+    left: 290px;
+    width: 31%;
+    height: auto;
+    border-radius: 50%;
+    margin: 58px!important;
+}
+
+#dis{
+    font-family: 'Righteous', cursive;
+    font-size: 25px!important;
+
+}
+
+
+.pabt{
+    font-size: 33px!important;
+}
+
+#mypic{
+    display: none;
+}
+
+
+#btn1{
+    position: absolute!important;
+    left: 1px!important;
+    top: 1006px!important;
+    
 }
