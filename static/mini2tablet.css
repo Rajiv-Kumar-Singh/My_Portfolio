@@ -14,7 +14,7 @@
 
 #my1pic{
     display: revert!important;
-    position: relative;
+    position: relative!important;
     top: 12px;
     left: 290px;
     width: 31%;
