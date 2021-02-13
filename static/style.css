@@ -17,6 +17,9 @@
 body::-webkit-scrollbar{
     display: none;
 }
+.container0{
+    margin: 0.1px;
+}
 
     
     
