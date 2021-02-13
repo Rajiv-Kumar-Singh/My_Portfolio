@@ -93,6 +93,41 @@
     
 }  
 
+#btnbox{
+    display: flex;
+    position: relative;
+    top: 42px;
+    left: 11px;
+    display: inline-block;
+    
+    
+    
+}
+#btnhire{
+    margin: 4px;
+    position: relative;
+    width: 123px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid rgb(27, 143, 238);
+    color: white;
+    font-family: 'Righteous', cursive;
+    background-color: rgb(27, 143, 238);
+}
+
+#btnknowm{
+    margin: 4px;
+    position: relative;
+    width: 123px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid rgb(27, 143, 238);
+    color: white;
+    font-family: 'Righteous', cursive;
+    font-weight: lighter;
+}
+
+
 #sidebar{
     position: absolute;
     width: 60px;
