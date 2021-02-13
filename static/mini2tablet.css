@@ -71,11 +71,13 @@
 }
 #pskill{
     font-size: 25px!important;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif!important;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif!important; */
+    font-family: 'Righteous', cursive!important;
 }
 #pskill2{
     font-size: 25px!important;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif!important;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif!important; */
+    font-family: 'Righteous', cursive!important;
 }
 #skill{
     font-size: 70px!important;
