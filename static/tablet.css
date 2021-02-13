@@ -31,14 +31,15 @@
     font-size: 52px!important;
 }
 
-
-
-
-
-
-
 #btn1{
     top: 110%!important;
     font-size: 16px!important;
     
+}
+
+
+/* styling skills and exp section  */
+
+#cont03{
+    height:80vh!important;
 }

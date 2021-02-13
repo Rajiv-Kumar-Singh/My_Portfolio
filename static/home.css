@@ -114,6 +114,10 @@
     font-family: 'Righteous', cursive;
     background-color: rgb(27, 143, 238);
 }
+#btnhire:hover{
+     background-color: black;
+     cursor: pointer;
+}
 
 #btnknowm{
     margin: 4px;
@@ -125,6 +129,11 @@
     color: white;
     font-family: 'Righteous', cursive;
     font-weight: lighter;
+}
+#btnknowm:hover{
+    cursor: pointer;
+    background-color: tomato;
+
 }
 
 
