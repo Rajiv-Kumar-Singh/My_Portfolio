@@ -42,6 +42,15 @@
 /* styling skills and exp section  */
 
 #cont03{
-    height:66vh!important;
+    height:52vh!important;
 }
 
+#pskill{
+    font-size: 26px!important;
+}
+#pskill2{
+    font-size: 26px!important;
+}
+#skill{
+    font-size: 74px!important;
+}

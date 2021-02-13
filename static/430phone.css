@@ -4,5 +4,15 @@
 
 /*skill   ...........*/
 #cont03{
-    height:45vh!important;
+    height:41vh!important;
+}
+
+#pskill{
+    font-size: 29px!important;
+}
+#pskill2{
+    font-size: 29px!important;
+}
+#skill{
+    font-size: 85px!important;
 }

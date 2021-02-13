@@ -46,7 +46,7 @@
     position: absolute;
     top: 94px;
     left: 45%; 
-    border: 2px solid red;
+    /* border: 2px solid red; */
     /* border-radius: 50%; */
     display: inline-block;
 } 
@@ -55,7 +55,7 @@
 
   #pskill{
       position: absolute;
-      top: 305px;
+      top: 323px;
       left: 25px;
       width: 38%;
       color: white;
