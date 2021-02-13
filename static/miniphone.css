@@ -1,9 +1,16 @@
-#paras {
+/* #paras {
     top: 354px!important;
-}
+} */
 
 #mypic {
     width: 43%!important;
     top: -266px!important;
     left: 3vw!important;
+}
+
+#btn1{
+    position: absolute!important;
+    left: 1px!important;
+    top: 110%!important;
+    
 }

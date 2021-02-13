@@ -1,3 +1,33 @@
-#paras {
-    top: 318px!important;
+#abthead1 {
+    font-size: 65px!important;
+}
+
+
+#my1pic {
+    position: relative!important;
+    top: 12px;
+    left: 221px;
+    width: 35%!important;
+    height: auto!important;
+    border-radius: 50%;
+    margin: 65px!important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#btn1 {
+    position: absolute!important;
+    left: 1px!important;
+    top: 110%!important;
 }
