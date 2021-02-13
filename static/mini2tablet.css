@@ -82,3 +82,36 @@
 #skill{
     font-size: 70px!important;
 }
+
+
+/*work media css       */
+
+#cont04{
+    height: 43vh!important;
+}
+#svg{
+    left: 30%!important;
+    top: -32px!important;
+    width: 211px!important;
+    height: 209px!important;
+}
+#dabain{
+    left: 4%!important;
+}
+#projhead{
+    font-size: 55px!important;
+}
+#skill{
+    font-size: 76px!important;
+}
+
+#internhead{
+    font-size: 55px!important;
+}
+
+#ph1{
+    font-size: 34px!important;
+}
+#ph2{
+    font-size: 34px!important;
+}

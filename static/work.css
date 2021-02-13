@@ -26,11 +26,19 @@
     background-color:rgb(71, 255, 255);
 }
 
+#workhead2{
+    color: #00ad9a;
+    font-size: 70px;
+    position: absolute;
+    left: 4%;
+    top: 26px;
+    font-family: 'Fredoka One', cursive;
+}
 
 #svg{
     position: absolute;
     top: 191px;
-    left: 9%;
+    left: 4%;
     width: 374px;
     height: 209px;
     animation: animatessvg 2s alternate infinite;
@@ -50,9 +58,9 @@
 #dabain{
     color: white;
     position: absolute;
-    top: 213px;
-    left: 52%;
-    width: 40%;
+    top: 168px;
+    left: 42%;
+
     height: 234px;
     font-family: 'Fredoka One', cursive;
 }
