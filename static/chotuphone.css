@@ -1,0 +1,59 @@
+#box0{
+    width: 77vw!important;
+}
+#hello {
+    display: inline-block;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    font-size: 62px!important;
+    font-family: 'Patua One', cursive;
+}
+
+
+
+#im{
+    display: inline-block;
+    position: relative;
+    top: -6px;
+    left: 0px;
+    font-size: 63px!important;
+    font-family: 'Patua One', cursive;
+}
+
+#naam{
+    display: inline-block;
+    color: tomato;
+}
+
+#hl{
+    display: inline-block;
+    width: 98%;
+    size: "2";
+    position: relative;
+    top: -18px;
+    left: 0px;
+    color: tomato;
+}
+
+
+#webdev{
+    display: inline-block;
+    position: relative;
+    top: -13px;
+    font-size: 25px!important;
+    left: 0px;
+    color: rgb(27, 143, 238);
+    font-family: 'Righteous', cursive;
+}
+
+
+#pp{
+    position: relative;
+    top: 60.5%;
+    font-size: 22px!important;
+    left: 0px;
+    width: 88%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}  
