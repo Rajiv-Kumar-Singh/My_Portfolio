@@ -1,3 +1,19 @@
+#logo{
+    font-size: 5rem!important;
+}
+#header{
+    height: 6.5rem!important;
+    }
+#nav{
+    height: 100%!important;
+}
+
+
+
+
+
+
+
 #abthead1 {
     font-size: 65px!important;
 }
@@ -12,18 +28,6 @@
     border-radius: 50%;
     margin: 65px!important;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 #btn1 {

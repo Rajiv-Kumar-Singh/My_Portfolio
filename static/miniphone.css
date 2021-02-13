@@ -2,6 +2,17 @@
     top: 354px!important;
 } */
 
+
+#logo{
+    font-size: 6rem!important;
+}
+#header{
+    height: 7.5rem!important;
+    }
+#nav{
+    height: 100%!important;
+}
+
 #mypic {
     width: 43%!important;
     top: -266px!important;
