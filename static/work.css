@@ -4,7 +4,7 @@
     position: relative;
     /* background-image:url('../static/images/bg.JPG') ; */
     background-color: rgb(9, 8, 15);
-    width: 99vw;
+    width: 100vw;
     height: 100%;
     z-index: 6;
 }

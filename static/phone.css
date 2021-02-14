@@ -75,25 +75,22 @@
 }
 
 #workicon{
-    width: 87px!important;
+    width: 85px!important;
     height: 72px!important;
     filter: invert(100%);
  }
  #skillicon{
-    width: 87px!important;
+    width: 85px!important;
     height: 72px!important;
    
  }
  #contacticon{
     width: 87px!important;
     height: 72px!important;
+    padding-right: 0px!important;
  
  }
   
-
- #foot{
-     /* border: 2px solid red; */
- }
    .fa-home:before {
     content: "\f015";
     font-size: 90px!important;

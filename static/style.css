@@ -18,7 +18,7 @@ body::-webkit-scrollbar{
     display: none;
 }
 .container0{
-    margin: 0.1px;
+    margin: 0px;
 }
 
     
@@ -89,7 +89,7 @@ body::-webkit-scrollbar{
     ul li a{
         
         font-size: 1.5rem;
-        padding: 12px ;
+        padding: 9px ;
         text-decoration: none;
         color:#C0C0C0;
         font-family: 'Righteous', cursive;
@@ -143,7 +143,7 @@ body::-webkit-scrollbar{
      }
      #foot{
          position: sticky;
-         height: 104px;
+         height: 110px;
          width: 100vw;
          bottom: 30px;
          display: flex;
