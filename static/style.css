@@ -118,22 +118,12 @@ body::-webkit-scrollbar{
          background-color: #1B1E23;
      }
 
-     #workicon{
+    
+     /* #contacticon{
         width: 83px;
         height: 83px;
-        filter: invert(76%);
-        
-     }
-     #skillicon{
-        width: 83px;
-        height: 83px;
-        filter: invert(76%);
-     }
-     #contacticon{
-        width: 83px;
-        height: 83px;
-        filter: invert(76%);
-     }
+        filter: invert(76%); 
+     } */
       
      #footer{
          display: none;
@@ -158,9 +148,35 @@ body::-webkit-scrollbar{
        .fa-home:before {
         content: "\f015";
         font-size:80px;
+        color: tomato;
     }
 
     .fa-user-circle:before {
         content: "\f2bd";
         font-size: 80px;
+        color: tomato;
+    }
+    .fa-code:before {
+        content: "\f121";
+        font-size: 80px;
+        color: tomato;
+    }
+
+    .fa-file-code-o:before {
+        content: "\f1c9";
+        font-size: 80px;
+        color: tomato;
+    }
+
+    #ho{
+        color:#00ad9a ;
+    }
+    #abo{
+        color:#00ad9a ;
+    }
+    #ski{
+        color:#00ad9a ;
+    }
+    #wo{
+        color:#00ad9a;
     }
