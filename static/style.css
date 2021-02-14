@@ -115,7 +115,7 @@ body::-webkit-scrollbar{
 
      #footer{
          color: white;
-         background-color: black;
+         background-color: #1B1E23;
      }
 
      #workicon{
@@ -143,11 +143,12 @@ body::-webkit-scrollbar{
      }
      #foot{
          position: sticky;
-         height: 100px;
+         height: 104px;
+         width: 100vw;
          bottom: 30px;
          display: flex;
          justify-content: center;
-         border: 2px solid red;
+         /* border: 2px solid red; */
      }
      .opt2{
         margin-inline: 47px;
@@ -155,10 +156,10 @@ body::-webkit-scrollbar{
 
        .fa-home:before {
         content: "\f015";
-        font-size: 75px;
+        font-size:90px;
     }
 
     .fa-user-circle:before {
         content: "\f2bd";
-        font-size: 70px;
+        font-size: 85px;
     }

@@ -75,46 +75,31 @@
 }
 
 #workicon{
-    width: 90px!important;
+    width: 87px!important;
     height: 72px!important;
     filter: invert(100%);
  }
  #skillicon{
-    width: 90px!important;
+    width: 87px!important;
     height: 72px!important;
-    filter: invert(100%);
+   
  }
  #contacticon{
-    width: 90px!important;
+    width: 87px!important;
     height: 72px!important;
-    filter: invert(100%);
+ 
  }
   
- #footer{
-     display: none;
-     position: sticky;
-     bottom: 0;
-     z-index: 9;
 
- }
  #foot{
-     position: sticky;
-     height: 85px;
-     bottom: 5px;
-     display: flex;
-     justify-content: center;
-     border: 2px solid red;
+     /* border: 2px solid red; */
  }
- .opt2{
-    margin-inline: 47px;
-   }
-
    .fa-home:before {
     content: "\f015";
-    font-size: 90px;
+    font-size: 90px!important;
 }
 
 .fa-user-circle:before {
     content: "\f2bd";
-    font-size: 90px;
+    font-size: 85px!important;
 }
