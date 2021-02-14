@@ -144,7 +144,7 @@ body::-webkit-scrollbar{
      }
      #foot{
          position: sticky;
-         height: 118px;
+         height: 121px;
          width: 100vw;
          bottom: 30px;
          display: flex;
@@ -157,7 +157,7 @@ body::-webkit-scrollbar{
 
        .fa-home:before {
         content: "\f015";
-        font-size:90px;
+        font-size:80px;
     }
 
     .fa-user-circle:before {
