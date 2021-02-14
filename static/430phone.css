@@ -19,8 +19,13 @@
 }
 #skill{
     font-size: 85px!important;
+    font-family: 'Satisfy', cursive!important;
 }
    /* work  */
 /* #cont04{
     height: 30vh!important;
 } */
+
+#workhead2{
+    font-family: 'Satisfy', cursive!important;
+}
