@@ -1,3 +1,7 @@
 #cont02{
     height:62.3vh!important;
 }
+
+#footer{
+    display: revert!important;
+}

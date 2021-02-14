@@ -177,7 +177,12 @@ ul li a{
     top: 95%!important;
     transform: translate(98%)!important;
 }
+/* footer  */
 
 #footer{
     display: revert!important;
+}
+
+#nav{
+    display: none!important;
 }

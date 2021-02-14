@@ -115,21 +115,22 @@ body::-webkit-scrollbar{
 
      #footer{
          color: white;
+         background-color: black;
      }
 
      #workicon{
-        width: 22px;
-        height: 22px;
+        width: 83px;
+        height: 67px;
         filter: invert(100%);
      }
      #skillicon{
-        width: 22px;
-        height: 22px;
+        width: 83px;
+        height: 67px;
         filter: invert(100%);
      }
      #contacticon{
-        width: 22px;
-        height: 22px;
+        width: 83px;
+        height: 67px;
         filter: invert(100%);
      }
       
@@ -142,12 +143,22 @@ body::-webkit-scrollbar{
      }
      #foot{
          position: sticky;
-         height: 59px;
-         bottom: 10px;
+         height: 100px;
+         bottom: 30px;
          display: flex;
          justify-content: center;
          border: 2px solid red;
      }
      .opt2{
-        margin-inline: 59px;
+        margin-inline: 47px;
+       }
+
+       .fa-home:before {
+        content: "\f015";
+        font-size: 75px;
+    }
+
+    .fa-user-circle:before {
+        content: "\f2bd";
+        font-size: 70px;
     }

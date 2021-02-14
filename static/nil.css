@@ -23,3 +23,6 @@
 #dabain{
     font-family: 'Righteous', cursive!important;
 }
+#footer{
+    display: revert!important;
+}
