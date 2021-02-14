@@ -115,3 +115,8 @@
 #ph2{
     font-size: 34px!important;
 }
+
+
+#footer{
+    display: revert!important;
+}
