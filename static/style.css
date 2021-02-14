@@ -144,7 +144,7 @@ body::-webkit-scrollbar{
      }
      #foot{
          position: sticky;
-         height: 110px;
+         height: 118px;
          width: 100vw;
          bottom: 30px;
          display: flex;
