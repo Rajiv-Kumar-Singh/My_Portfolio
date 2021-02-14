@@ -270,8 +270,24 @@ block content
         //- #cl 
         //- #ul            
 
-        //- footer#footer
-        //- | Copyright © 2021 HarryDanceAcademy.com | All rigths reserved
+        footer#footer
+            ul#foot
+                li.opt2
+                    a(href='/') 
+                        <i class="fa fa-home" aria-hidden="true"></i>
+                li.opt2
+                    a(href='#abthead') 
+                        <i class="fa fa-user-circle" aria-hidden="true"></i>
+                li.opt2
+                    a(href='#skillshead') 
+                        img#skillicon(src='../static/images/skill.png' alt='')
+                li.opt2
+                    a(href='#workhead') 
+                        img#workicon(src='../static/images/work.png' alt='')
+                li.opt2
+                    a(href='#contacthead') 
+                        img#contacticon(src='../static/images/contacts.png' alt='')
+            
     
     script
         include ../static/tut.js

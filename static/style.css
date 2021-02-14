@@ -110,3 +110,44 @@ body::-webkit-scrollbar{
 
 
      
+
+     /* footer styling        */
+
+     #footer{
+         color: white;
+     }
+
+     #workicon{
+        width: 22px;
+        height: 22px;
+        filter: invert(100%);
+     }
+     #skillicon{
+        width: 22px;
+        height: 22px;
+        filter: invert(100%);
+     }
+     #contacticon{
+        width: 22px;
+        height: 22px;
+        filter: invert(100%);
+     }
+      
+     #footer{
+         display: none;
+         position: sticky;
+         bottom: 0;
+         z-index: 9;
+
+     }
+     #foot{
+         position: sticky;
+         height: 59px;
+         bottom: 10px;
+         display: flex;
+         justify-content: center;
+         border: 2px solid red;
+     }
+     .opt2{
+        margin-inline: 59px;
+    }
