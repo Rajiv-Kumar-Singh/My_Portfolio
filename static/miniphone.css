@@ -25,9 +25,12 @@
     top: 110%!important;
     
 }
+#sidebar{
+    top: 1.6%!important;
+}
 
 #cont02{
-    height:75vh!important;
+    height:81vh!important;
 }
 
 

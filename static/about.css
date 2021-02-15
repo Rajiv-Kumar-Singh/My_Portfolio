@@ -17,9 +17,12 @@
     background: transparent;
     background: none;
     width: 100vw;
-    height: 100vh;
+    height: 118vh;
     background-color:rgb(16, 15, 27);
 
+}
+#cont02{
+    height:109vh ;
 }
 
 

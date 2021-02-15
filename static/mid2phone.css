@@ -1,5 +1,5 @@
 #cont02{
-    height:67vh!important
+    height:74vh!important
 }
 
 #cont03{
@@ -15,6 +15,10 @@
 }
 #dabain{
     font-family: 'Righteous', cursive!important;
+}
+
+#sidebar{
+    top: 2.4%!important;
 }
 #footer{
     display: revert!important;

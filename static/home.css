@@ -169,6 +169,6 @@
    filter: invert(100%);
 }
 #tw:hover{
-    color: #e25e0d;
-    filter: invert(100%);
+    color: #000000;
+    filter: invert(90%);
 }
