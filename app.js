@@ -8,7 +8,7 @@ const bodyparser = require("body-parser");
 
 
 
-mongoose.connect('mongodb://localhost/Portfolio', {useNewUrlParser: true});
+mongoose.connect('mongodb://localhost/portfolio_database', {useNewUrlParser: true});
 
 
 //Define mongoose Schema
