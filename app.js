@@ -73,7 +73,7 @@ app.get('/',(req,res)=>{
     }).catch(()=>{
     res.status(400).send("Item was not saved to the database");
     });
-    res.json(myData);
+    res.send('Thanl you!');
      // res.status(200).render('contact.pug');
  })
 
