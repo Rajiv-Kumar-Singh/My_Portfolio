@@ -196,21 +196,18 @@ block content
                                             span ME
                                         .app-contact CONTACT INFO : +62 81 314 928 595
                                     .screen-body-item
-                                        .app-form
+                                        form(action="/" method='post' class="app-form") 
                                             .app-form-group
-                                            input.app-form-control(placeholder='NAME' )
+                                            input.app-form-control(placeholder='NAME' name='name' )
                                             .app-form-group
-                                            input.app-form-control(placeholder='EMAIL')
+                                            input.app-form-control(placeholder='EMAIL' name='email')
                                             .app-form-group
-                                            input.app-form-control(placeholder='CONTACT NO')
+                                            input.app-form-control(placeholder='CONTACT NO' name='contact')
                                             .app-form-group.message
-                                            input.app-form-control(placeholder='MESSAGE')
+                                            input.app-form-control(placeholder='MESSAGE' name='message')
                                             .app-form-group.buttons
                                             button.app-form-button CANCEL
                                             button.app-form-button SEND
-         
-
-
 
         footer#footer
             ul#foot

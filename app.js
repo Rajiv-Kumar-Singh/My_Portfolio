@@ -3,8 +3,24 @@ const path = require("path");
 const fs = require("fs");
 const port = process.env.PORT || 3000;
 const app = express();
-// const mongoose = require("mongoose");
-// const bodyparser = require("body-parser");
+const mongoose = require("mongoose");
+const bodyparser = require("body-parser");
+
+
+
+mongoose.connect('mongodb://localhost/portfolio_database', {useNewUrlParser: true});
+
+
+//Define mongoose Schema
+var contactSchema = new mongoose.Schema({
+name: String,
+email: String,
+contact: String,
+message: String
+});
+
+
+var Contact = mongoose.model('Contact', contactSchema);
 
 
 
@@ -42,15 +58,15 @@ app.get('/',(req,res)=>{
 // })
 
 
-// app.post('/contact', (req, res)=>{
-//     var myData = new Contact(req.body);
-//     myData.save().then(()=>{
-//         res.send("This item has been saved to the database");
-//     }).catch(()=>{
-//         res.status(400).send("Item was not saved to the database");
-//     });
-//     // res.status(200).render('contact.pug');
-// })
+ app.post('/', (req, res)=>{
+    var myData = new Contact(req.body);
+    myData.save().then(()=>{
+    res.send("This item has been saved to the database");
+    }).catch(()=>{
+    res.status(400).send("Item was not saved to the database");
+    });
+     // res.status(200).render('contact.pug');
+ })
 
 
 //Start the server
