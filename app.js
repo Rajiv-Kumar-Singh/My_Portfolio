@@ -2,13 +2,19 @@ const express = require("express");
 const path = require("path");
 const fs = require("fs");
 const port = process.env.PORT || 3000;
+const connectDB = require('./DB/connection');
 const app = express();
 const mongoose = require("mongoose");
 const bodyparser = require("body-parser");
 
 
 
-mongoose.connect('mongodb://localhost/portfolio_database', {useNewUrlParser: true});
+connectDB();
+app.use(express.json({extended:false}));
+
+// module.exports = connectDB;
+// mongoose.connect('mongodb://localhost/portfolio_database', {useNewUrlParser: true});
+// mongoose.connect('mongodb+srv://Rajiv_07:<password>@portfolio.gng9i.mongodb.net/test', {useNewUrlParser: true});
 
 
 //Define mongoose Schema
@@ -20,7 +26,9 @@ message: String
 });
 
 
-var Contact = mongoose.model('Contact', contactSchema);
+// var Contact = mongoose.model('Contact', contactSchema);
+
+module.exports = Contact = mongoose.model('Contact', contactSchema);
 
 
 
@@ -65,9 +73,11 @@ app.get('/',(req,res)=>{
     }).catch(()=>{
     res.status(400).send("Item was not saved to the database");
     });
+    res.json(myData);
      // res.status(200).render('contact.pug');
  })
 
+        //  app.use('myData',require('app'));
 
 //Start the server
 app.listen(port,()=>{
