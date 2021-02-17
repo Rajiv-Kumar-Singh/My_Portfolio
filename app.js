@@ -47,7 +47,7 @@ const MongoClient = require('mongodb').MongoClient;
 const uri = "mongodb+srv://Rajiv_07:RP048aj120l@portfolio.gng9i.mongodb.net/portfolio_database?retryWrites=true&w=majority";
 const client = new MongoClient(uri, { useNewUrlParser: true });
 client.connect(err => {
-  const collection = client.db("test").collection("devices");
+  const collection = client.db("portfolio_database").collection("contactData");
   // perform actions on the collection object
   client.close();
 });
