@@ -13,10 +13,10 @@ const bodyparser = require("body-parser");
 // connectDB();
 // app.use(express.json({extended:false}));
 //  module.exports = connectDB;
-mongoose.connect(process.env.MONGOLAB_URI, {useNewUrlParser: true});
+mongoose.connect(process.env.MONGOLAB_URI || 'mongodb://localhost/foliodatabase', {useNewUrlParser: true});
 // mongoose.connect('mongodb+srv://Rajiv_07:<password>@portfolio.gng9i.mongodb.net/test', {useNewUrlParser: true});
 
-// || 'mongodb://localhost/foliodatabase'
+
 //Define mongoose Schema
 var contactSchema = new mongoose.Schema({
 name: String,
