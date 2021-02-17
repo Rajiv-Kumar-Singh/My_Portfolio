@@ -2,17 +2,63 @@ const express = require("express");
 const path = require("path");
 const fs = require("fs");
 const port = process.env.PORT || 3000;
-const connectDB = require('./DB/connection');
+// const connectDB = require('./DB/connection');
 const app = express();
 const mongoose = require("mongoose");
 const bodyparser = require("body-parser");
 
 
 
-connectDB();
-app.use(express.json({extended:false}));
 
-// module.exports = connectDB;
+
+//lets require/import the mongodb native drivers.
+// var mongodb = require('mongodb');
+
+//We need to work with "MongoClient" interface in order to connect to a mongodb server.
+// var MongoClient = mongodb.MongoClient;
+
+// Connection URL. This is where your mongodb server is running.
+
+//(Focus on This Variable)
+// var url = 'mongodb+srv://Rajiv_07:<password>@portfolio.gng9i.mongodb.net/<dbname>?retryWrites=true&w=majority';      
+//(Focus on This Variable)
+
+// Use connect method to connect to the Server
+//   MongoClient.connect(url, function (err, db) {
+//   if (err) {
+//     console.log('Unable to connect to the mongoDB server. Error:', err);
+//   } else {
+//     console.log('Connection established to', url);
+
+//     // do some work here with the database.
+
+//     //Close connection
+//     db.close();
+//   }
+// });
+
+
+
+// var url = process.env.MONGOLAB_URI;
+
+
+
+const MongoClient = require('mongodb').MongoClient;
+const uri = "mongodb+srv://Rajiv_07:RP048aj120l@portfolio.gng9i.mongodb.net/portfolio_database?retryWrites=true&w=majority";
+const client = new MongoClient(uri, { useNewUrlParser: true });
+client.connect(err => {
+  const collection = client.db("test").collection("devices");
+  // perform actions on the collection object
+  client.close();
+});
+
+
+
+
+
+// connectDB();
+// app.use(express.json({extended:false}));
+//  module.exports = connectDB;
 // mongoose.connect('mongodb://localhost/portfolio_database', {useNewUrlParser: true});
 // mongoose.connect('mongodb+srv://Rajiv_07:<password>@portfolio.gng9i.mongodb.net/test', {useNewUrlParser: true});
 
@@ -26,9 +72,9 @@ message: String
 });
 
 
-// var Contact = mongoose.model('Contact', contactSchema);
+var Contact = mongoose.model('Contact', contactSchema);
 
-module.exports = Contact = mongoose.model('Contact', contactSchema);
+// module.exports = Contact = mongoose.model('Contact', contactSchema);
 
 
 
