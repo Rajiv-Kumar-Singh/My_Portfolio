@@ -12,9 +12,14 @@ const bodyparser = require("body-parser");
 
 // connectDB();
 // app.use(express.json({extended:false}));
-//  module.exports = connectDB;
-mongoose.connect(process.env.MONGOLAB_URI || 'mongodb://localhost/foliodatabase', {useNewUrlParser: true});
+// module.exports = connectDB;
+// const MONGOLAB_URI = 'mongodb+srv://Rajiv_07:RP048aj120l@portfolio.gng9i.mongodb.net/foliodatabase?retryWrites=true&w=majority'
+mongoose.connect(process.env.MONGOLAB_URI || 'mongodb://localhost/foliodatabase', {useNewUrlParser: true , useUnifiedTopology: true});
 // mongoose.connect('mongodb+srv://Rajiv_07:<password>@portfolio.gng9i.mongodb.net/test', {useNewUrlParser: true});
+
+mongoose.connection.on('connected',()=>{
+    console.log('Moongoose is connected!!!!');
+});
 
 
 //Define mongoose Schema
@@ -65,6 +70,11 @@ app.get('/',(req,res)=>{
  })
 
         //  app.use('myData',require('app'));
+
+
+        // if(process.env.NODE_ENV ==='production') {
+        //     app.use(express.static('build'));
+        // }
 
 //Start the server
 app.listen(port,()=>{
