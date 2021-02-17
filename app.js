@@ -13,7 +13,7 @@ const bodyparser = require("body-parser");
 // connectDB();
 // app.use(express.json({extended:false}));
 //  module.exports = connectDB;
-mongoose.connect(process.env.MONGOLAB_URI || 'mongodb://localhost/portfolio_database', {useNewUrlParser: true});
+mongoose.connect(process.env.MONGOLAB_URI || 'mongodb://localhost/foliodatabase', {useNewUrlParser: true});
 // mongoose.connect('mongodb+srv://Rajiv_07:<password>@portfolio.gng9i.mongodb.net/test', {useNewUrlParser: true});
 
 
