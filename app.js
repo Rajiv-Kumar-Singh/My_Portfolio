@@ -52,19 +52,6 @@ app.get('/',(req,res)=>{
 //     const params ={ }
 //     res.status(200).render('./contact.pug',params);
 // })
-// app.get('/about', (req, res)=>{
-//     const params ={ }
-//     res.status(200).render('./about.pug',params);
-// })
-// app.get('/skills', (req, res)=>{
-//     const params ={ }
-//     res.status(200).render('./skills.pug',params);
-// })
-// app.get('/work', (req, res)=>{
-//     const params ={ }
-//     res.status(200).render('./work.pug',params);
-// })
-
 
  app.post('/', (req, res)=>{
     var myData = new Contact(req.body);
@@ -73,7 +60,7 @@ app.get('/',(req,res)=>{
     }).catch(()=>{
     res.status(400).send("Item was not saved to the database");
     });
-    res.send('Thanl you!');
+    // res.send('Thank you!');
      // res.status(200).render('contact.pug');
  })
 
