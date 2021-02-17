@@ -13,7 +13,7 @@ const bodyparser = require("body-parser");
 // connectDB();
 // app.use(express.json({extended:false}));
 // module.exports = connectDB;
-// const MONGOLAB_URI = 'mongodb+srv://Rajiv_07:RP048aj120l@portfolio.gng9i.mongodb.net/foliodatabase?retryWrites=true&w=majority'
+// const MONGOLAB_URI = 'mongodb+srv://Rajiv_07:<password>@portfolio.gng9i.mongodb.net/foliodatabase?retryWrites=true&w=majority'
 mongoose.connect(process.env.MONGOLAB_URI || 'mongodb://localhost/foliodatabase', {useNewUrlParser: true , useUnifiedTopology: true});
 // mongoose.connect('mongodb+srv://Rajiv_07:<password>@portfolio.gng9i.mongodb.net/test', {useNewUrlParser: true});
 
