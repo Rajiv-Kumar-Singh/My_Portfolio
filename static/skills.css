@@ -31,15 +31,38 @@
     background-color:tomato;
     
 }
-#skill{
-    color: #00ad9a;
-    font-family: 'Fredoka One', cursive;
-    font-size: 70px;
+
+#checkout{
+    display: inline-block;
+    font-family: 'Righteous', cursive;
+    font-size: 20px;
+    color: white;
     position: absolute;
-    top: 185px;
+    top: 31px;
+    left: 28px;
+}
+#skill{
+    color: white;
+    /* font-family: 'Fredoka One', cursive; */
+    font-family: 'Roboto', sans-serif;
+    font-size: 49px;
+    font-weight: lighter;
+    position: absolute;
+    top: 57.5px;
     left: 25px;
 }
 
+#skillhr{
+    display: inline-block;
+    width: 224px;
+    height: 2px;
+    border-width: 0;
+    color: tomato;
+    background-color: tomato;
+    position: absolute;
+    top: 109px;
+    left: 27px;
+}
 
 
 #tag{
