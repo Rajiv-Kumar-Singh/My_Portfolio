@@ -63,7 +63,7 @@ app.get('/',(req,res)=>{
  app.post('/', (req, res)=>{
     var myData = new Contact(req.body);
     myData.save().then(()=>{
-    // res.send("This item has been saved to the database");
+    
        res.render('home.pug')
     }).catch(()=>{
     res.status(400).send("Item was not saved to the database");
