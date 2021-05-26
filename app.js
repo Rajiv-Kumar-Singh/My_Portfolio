@@ -15,13 +15,13 @@ const mongodb = require("mongodb");
 // app.use(express.json({extended:false}));
 // module.exports = connectDB;
 
-mongoose.connect(process.env.MONGOLAB_URI || 'mongodb://localhost/contacts', {useNewUrlParser: true});
+mongoose.connect(process.env.MONGOLAB_URI || 'mongodb://localhost/data', {useNewUrlParser: true});
 
 // mongoose.connect('mongodb+srv://Rajiv_07:<password>@portfolio.gng9i.mongodb.net/test', {useNewUrlParser: true});
 
-mongoose.connection.on('connected',()=>{
-    console.log('Moongoose is connected!!!!');
-});
+// mongoose.connection.on('connected',()=>{
+//     console.log('Moongoose is connected!!!!');
+// });
 
 
 //Define mongoose Schema
@@ -63,7 +63,8 @@ app.get('/',(req,res)=>{
  app.post('/', (req, res)=>{
     var myData = new Contact(req.body);
     myData.save().then(()=>{
-    res.send("This item has been saved to the database");
+    // res.send("This item has been saved to the database");
+       res.render('home.pug')
     }).catch(()=>{
     res.status(400).send("Item was not saved to the database");
     });
